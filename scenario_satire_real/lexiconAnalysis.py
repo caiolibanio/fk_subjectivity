@@ -532,11 +532,11 @@ one_size_test = 95
 
 #caso 1
 print("Starting case 1...")
-train_dataset_path = '../../../data/scenario_satire_real/satire_pol/lexicon_rates_without_stopwords_REAL_POL-FAKE_ESTADAO_FOLHA_SENTENCES_ALL.csv'
+train_dataset_path = '../../../data/scenario_satire_real/fake_pol/lexicon_rates_without_stopwords_REAL_POL-FAKE_ESTADAO_FOLHA_SENTENCES_ALL.csv'
 test_list_paths = [
-    '../../../data/scenario_satire_real/satire_pol/lexicon_rates_without_stopwords_REAL_ESP_ESTADAO_FOLHA_SENTENCES_ALL.csv',
-    '../../../data/scenario_satire_real/satire_pol/lexicon_rates_without_stopwords_REAL_ECO_ESTADAO_FOLHA_SENTENCES_ALL.csv',
-    '../../../data/scenario_satire_real/satire_pol/lexicon_rates_without_stopwords_REAL_CUL_ESTADAO_FOLHA_SENTENCES_ALL.csv'
+    '../../../data/scenario_satire_real/fake_pol/lexicon_rates_without_stopwords_REAL_ESP_ESTADAO_FOLHA_SENTENCES_ALL.csv',
+    '../../../data/scenario_satire_real/fake_pol/lexicon_rates_without_stopwords_REAL_ECO_ESTADAO_FOLHA_SENTENCES_ALL.csv',
+    '../../../data/scenario_satire_real/fake_pol/lexicon_rates_without_stopwords_REAL_CUL_ESTADAO_FOLHA_SENTENCES_ALL.csv'
 ]
 repetitions = 500
 base_file_name = "pol-fake"
@@ -544,11 +544,11 @@ execute_test_scenarios(train_dataset_path, test_list_paths, repetitions, base_fi
 
 #caso2
 print("Starting case 2...")
-train_dataset_path = '../../../data/scenario_satire_real/satire_esp/lexicon_rates_without_stopwords_REAL_ESP-FAKE_ESTADAO_FOLHA_SENTENCES_ALL.csv'
+train_dataset_path = '../../../data/scenario_satire_real/fake_esp/lexicon_rates_without_stopwords_REAL_ESP-FAKE_ESTADAO_FOLHA_SENTENCES_ALL.csv'
 test_list_paths = [
-    '../../../data/scenario_satire_real/satire_esp/lexicon_rates_without_stopwords_REAL_POL_ESTADAO_FOLHA_SENTENCES_ALL.csv',
-    '../../../data/scenario_satire_real/satire_esp/lexicon_rates_without_stopwords_REAL_ECO_ESTADAO_FOLHA_SENTENCES_ALL.csv',
-    '../../../data/scenario_satire_real/satire_esp/lexicon_rates_without_stopwords_REAL_CUL_ESTADAO_FOLHA_SENTENCES_ALL.csv'
+    '../../../data/scenario_satire_real/fake_esp/lexicon_rates_without_stopwords_REAL_POL_ESTADAO_FOLHA_SENTENCES_ALL.csv',
+    '../../../data/scenario_satire_real/fake_esp/lexicon_rates_without_stopwords_REAL_ECO_ESTADAO_FOLHA_SENTENCES_ALL.csv',
+    '../../../data/scenario_satire_real/fake_esp/lexicon_rates_without_stopwords_REAL_CUL_ESTADAO_FOLHA_SENTENCES_ALL.csv'
 ]
 repetitions = 500
 base_file_name = "esp-fake"
@@ -556,11 +556,11 @@ execute_test_scenarios(train_dataset_path, test_list_paths, repetitions, base_fi
 
 #caso3
 print("Starting case 3...")
-train_dataset_path = '../../../data/scenario_satire_real/satire_eco/lexicon_rates_without_stopwords_REAL_ECO-FAKE_ESTADAO_FOLHA_SENTENCES_ALL.csv'
+train_dataset_path = '../../../data/scenario_satire_real/fake_eco/lexicon_rates_without_stopwords_REAL_ECO-FAKE_ESTADAO_FOLHA_SENTENCES_ALL.csv'
 test_list_paths = [
-    '../../../data/scenario_satire_real/satire_eco/lexicon_rates_without_stopwords_REAL_ESP_ESTADAO_FOLHA_SENTENCES_ALL.csv',
-    '../../../data/scenario_satire_real/satire_eco/lexicon_rates_without_stopwords_REAL_POL_ESTADAO_FOLHA_SENTENCES_ALL.csv',
-    '../../../data/scenario_satire_real/satire_eco/lexicon_rates_without_stopwords_REAL_CUL_ESTADAO_FOLHA_SENTENCES_ALL.csv'
+    '../../../data/scenario_satire_real/fake_eco/lexicon_rates_without_stopwords_REAL_ESP_ESTADAO_FOLHA_SENTENCES_ALL.csv',
+    '../../../data/scenario_satire_real/fake_eco/lexicon_rates_without_stopwords_REAL_POL_ESTADAO_FOLHA_SENTENCES_ALL.csv',
+    '../../../data/scenario_satire_real/fake_eco/lexicon_rates_without_stopwords_REAL_CUL_ESTADAO_FOLHA_SENTENCES_ALL.csv'
 ]
 repetitions = 500
 base_file_name = "eco-fake"
@@ -570,11 +570,11 @@ execute_test_scenarios(train_dataset_path, test_list_paths, repetitions, base_fi
 zero_size_train = 36918
 one_size_train = 9230
 print("Starting case 4...")
-train_dataset_path = '../../../data/scenario_satire_real/satire_cul/lexicon_rates_without_stopwords_REAL_CUL-FAKE_ESTADAO_FOLHA_SENTENCES_ALL.csv'
+train_dataset_path = '../../../data/scenario_satire_real/fake_cul/lexicon_rates_without_stopwords_REAL_CUL-FAKE_ESTADAO_FOLHA_SENTENCES_ALL.csv'
 test_list_paths = [
-    '../../../data/scenario_satire_real/satire_cul/lexicon_rates_without_stopwords_REAL_ESP_ESTADAO_FOLHA_SENTENCES_ALL.csv',
-    '../../../data/scenario_satire_real/satire_cul/lexicon_rates_without_stopwords_REAL_ECO_ESTADAO_FOLHA_SENTENCES_ALL.csv',
-    '../../../data/scenario_satire_real/satire_cul/lexicon_rates_without_stopwords_REAL_POL_ESTADAO_FOLHA_SENTENCES_ALL.csv'
+    '../../../data/scenario_satire_real/fake_cul/lexicon_rates_without_stopwords_REAL_ESP_ESTADAO_FOLHA_SENTENCES_ALL.csv',
+    '../../../data/scenario_satire_real/fake_cul/lexicon_rates_without_stopwords_REAL_ECO_ESTADAO_FOLHA_SENTENCES_ALL.csv',
+    '../../../data/scenario_satire_real/fake_cul/lexicon_rates_without_stopwords_REAL_POL_ESTADAO_FOLHA_SENTENCES_ALL.csv'
 ]
 repetitions = 500
 base_file_name = "cul-fake"

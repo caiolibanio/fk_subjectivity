@@ -472,7 +472,7 @@ one_size_test = 30
 
 #caso 1
 print("Starting case 1...")
-train_dataset_path = '../../../data/scenario_fake_real_all/lexicon_rates_without_stopwords_REAL_FAKE_ALLTOPICS_ESTADAO_FOLHA_SENTENCES_ALL_randomized.csv'
+train_dataset_path = '../../../data/scenario_fake_real_all/lexicon_rates_without_stopwords_REAL_FAKE_ALLTOPICS_ESTADAO_FOLHA_SENTENCES_ALL_TRAIN.csv'
 test_list_paths = [
     '../../../data/scenario_fake_real_all/lexicon_rates_without_stopwords_REAL_FAKE_ALLTOPICS_ESTADAO_FOLHA_SENTENCES_ALL_TEST.csv'
 ]
